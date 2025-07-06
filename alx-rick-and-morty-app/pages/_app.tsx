@@ -1,4 +1,7 @@
 import "@/styles/globals.css";
+import "@/sentry.client.config";
+import "@/sentry.server.config";
+import React from "react";
 import ErrorBoundary from "@/components/ErrorBoundary";
 import type { AppProps } from "next/app";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";

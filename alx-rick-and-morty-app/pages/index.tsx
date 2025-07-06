@@ -55,10 +55,10 @@ const Home: React.FC = () => {
                 />
               )
             )}
-          <ErrorBoundary>
-            <ErrorProneComponent />
-          </ErrorBoundary>
-        </div>
+  <ErrorBoundary>
+    <ErrorProneComponent />
+  </ErrorBoundary>
+</div>
 
         {/* Pagination Buttons */}
         <div className="flex justify-between mt-6">
